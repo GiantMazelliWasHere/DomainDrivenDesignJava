@@ -7,10 +7,10 @@ public class Aluno {
 	String matricula;
 	
 	void estudar() {
-		System.out.println("Estudando...");
+		System.out.println("O aluno " + nome + " da idade " + idade + " e genero " + genero + " da mátricula " + matricula + " está estudando.");
 	}
 	
-	void comer() {
-		System.out.println("Comendo...");
+	void comer(String comida) {
+		System.out.println("O aluno está comendo " + comida);
 	}
 }
