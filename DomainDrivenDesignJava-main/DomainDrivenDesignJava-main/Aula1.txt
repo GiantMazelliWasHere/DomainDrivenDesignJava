@@ -1,0 +1,52 @@
+Classes devem ter letra maíuscula;
+
+A classe pública deve ter o mesmo nome que o arquivo em que ela se encontra;
+  
+Podemos ter varias classes em um arquivo;
+
+Java usa camel case
+
+Sytaxe para metodos executavéis:
+
+    public static void main(String[] args) {
+    }
+    static - metodo inaterável
+    void - metodo sem retorno
+
+Classe - Pode ser qualquer coisa, serve para representar algo. Usado para representar a unidade, deve sempre estar no singular.
+
+	Syntaxe:
+		public class 'nome da classe'{
+			
+
+		}
+
+
+Atributos - Características do objeto que estamos representado na classe.
+
+	Syntaxe:
+		public class 'nome da classe'{
+			string nome;
+			short idade;
+			string genero;
+			string matricula;
+
+		}
+
+Métodos - São os comportamentos do objetos que a classe representa.
+
+	Syntaxe:
+		public class 'nome da classe'{
+
+			string nome;
+			short idade;
+			string genero;
+			string matricula;
+
+			void estudar () {....}
+			void comer () {....}
+
+		}
+
+syso + ctrl + space = System.out.println();
+	
